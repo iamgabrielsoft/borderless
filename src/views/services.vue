@@ -95,14 +95,12 @@
                         </div>
                         
                     </p>
-
-                
              </section-white>
 
              <service-section class="py-40 ">
                     <h1 class="text-5xl leading-normal sm:flex">Algorithm of <span class="block sm:ml-4">work</span></h1>
                     <div class="container md:mx-20 mx-10">
-                        <ul class="block list-decimal pt-10">
+                        <ul class="block list-decimal pt-10 ">
                             <li class="pb-10">
                                 Requirements analysis and statement of work
                             </li>

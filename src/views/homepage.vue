@@ -36,19 +36,19 @@
           </p>
         </div>
 
-        <div class="flex sm:flex-col flex-col justify-between gap-5">
+        <div class="flex sm:flex-col flex-col justify-between gap-5 overflow-x-hidden">
           <!-- USING FLEX-BOX HERE -->
-          <div class="flex gap-5 flex-col items-stretch sm:flex-row lg:flex-row">
+          <div class="flex gap-5 flex-col  sm:flex-row lg:flex-row">
           <!--first card-->
-            <div class="sm:w-96 h-full max-w-sm px-6 py-4 pb-10 rounded-lg border border-zinc-400 shadow-lg">
+            <div class="sm:w-96 h-full w-80 p-5  rounded-lg border border-zinc-400 shadow-md">
               <DesktopComputerIcon class="w-20 h-20 text-blue-500"/>
               <h1 class="font-light text-3xl leading-normal">Web-development</h1>
-              <p class="break-all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nam, totam aut illo voluptatem necessitatibus laborum consectetur aspernatur, aperiam eum possimus quam molestias facilis optio, quis esse. Doloremque, aliquam officiis.</p>
+              <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nam, totam aut illo voluptatem necessitatibus laborum consectetur aspernatur, aperiam eum possimus quam molestias facilis optio, quis esse. Doloremque, aliquam officiis.</p>
               <p></p>
             </div>
 
                       <!-- second card-->
-            <div class="sm:w-96 h-full max-w-sm  px-6 py-4 pb-10  rounded-lg border border-zinc-400 shadow-lg">
+            <div class="sm:w-96 h-full w-80 p-5 rounded-lg border border-zinc-400 shadow-md">
               <DeviceMobileIcon  class="w-20 h-20 text-blue-500"/>
               <h1 class="font-light text-3xl leading-normal inline">Mobile development</h1>
               <p class="break-all">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus ab id 
@@ -60,7 +60,7 @@
 
           <div class="flex gap-5 flex-col items-stretch sm:flex-row lg:flex-row">
             <!-- third card-->
-            <div class="sm:w-96 h-full max-w-sm  px-4 py-4 pb-10  rounded-lg border border-zinc-400 shadow-lg">
+            <div class="sm:w-96 h-full w-80 p-5  rounded-lg border border-zinc-400 shadow-md">
               <DeviceTabletIcon class="w-20 h-20 text-blue-500"/>
               <h1 class="font-light text-3xl leading-normal">E-Commerce development</h1>
               <p class="break-all">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quasi voluptatum facere explicabo, in laudantium. Vero, molestias excepturi consequuntur adipisci recusandae cupiditate asperiores optio porro autem odio vel eius repellat?</p>
@@ -68,7 +68,7 @@
 
 
                       <!-- fourth-->
-            <div class="sm:w-96 h-full max-w-sm px-6 py-4 pb-10 rounded-lg border border-zinc-400 shadow-lg">
+            <div class="sm:w-96 h-full w-80 p-5 rounded-lg border border-zinc-400 shadow-md">
               <ChatIcon  class="w-20 h-20 text-blue-500"/>
               <h1 class="font-light text-3xl leading-normal ">Consultancy</h1>
               <p class="break-all">

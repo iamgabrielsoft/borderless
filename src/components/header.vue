@@ -7,7 +7,7 @@
                     <hamburger />
                 </button>
 
-                <transition >
+            
                     <div class="w-full md:flex md:w-auto inner" id="navbar-default">
                         <transition name="nested" >
                             <ul :class="!showMenu ? 'flex flex-col p-4 mt-4 rounded-lg boder md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium' : 'hidden'">
@@ -38,11 +38,8 @@
                             </li>
                         </ul>
                         </transition>
-
                     </div>
-                </transition>
-
-            </div>
+                </div>
         </nav>
     </header>
 </template>
@@ -65,32 +62,15 @@ export default defineComponent({
         Logo,
     },
 
+
     setup() {
         let showMenu = ref<boolean>(false); 
         let mobileSize = Math.min(window.screen.width, window.screen.height);  //mobile-screen size
         const toggleNavbar = ()  => (showMenu.value = !showMenu.value); 
 
-        onMounted(() => {
-            if(mobileSize < 768) {
-                showMenu.value = true; 
-
-            }else if(mobileSize >= 768) {
-                showMenu.value = false; 
-            }
-            
-            else {
-                showMenu.value = false; 
-            } 
-        }); 
-
-
         return { showMenu, toggleNavbar, mobileSize }; 
     },
 
-    mounted() {
-        //this.showMenu = false;
-       // this.showMenu = false; 
-        //this.showMenu = true;  
-    },
+
 })
 </script>

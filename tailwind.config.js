@@ -13,6 +13,7 @@ module.exports = {
       lg: "14px",
       md: "10px",
       sm: "8px",
+      full: "40px", 
     },
 
     fontFamily: {
