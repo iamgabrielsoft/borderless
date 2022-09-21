@@ -4,7 +4,8 @@
         <div class="sm:flex sm:items-center sm:justify-between">
           <a href="#" class="flex">
            
-            <span class="text-4xl font-semibold sm:flex mx-36 sm:mx-0 py-5">Itaocy</span>
+            <!-- <span class="text-4xl font-semibold sm:flex mx-36 sm:mx-0 py-5">Itaocy</span> -->
+            <logo class="sm:flex mx-36 sm:mx-0 py-5"/>
           </a>
 
           <div class="">
@@ -125,8 +126,11 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-
+import Logo from './Logo.vue';
 export default defineComponent({
-    name: "Footer"
+    name: "Footer", 
+    components: {
+      Logo
+    }
 })
 </script>
