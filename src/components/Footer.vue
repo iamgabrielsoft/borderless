@@ -3,12 +3,10 @@
       <div class="container md:mx-auto sm:px-4 py-14 text-center">
         <div class="sm:flex sm:items-center sm:justify-between">
           <a href="#" class="flex">
-           
-            <!-- <span class="text-4xl font-semibold sm:flex mx-36 sm:mx-0 py-5">Itaocy</span> -->
-            <logo class="sm:flex mx-36 sm:mx-0 py-5"/>
+            <logo class="sm:flex mx-32 sm:mx-0 py-5"/>
           </a>
 
-          <div class="">
+          <div>
             <ul class="inline-flex space-x-6 sm:justify-center">
               <li>
                 <a href="#">
